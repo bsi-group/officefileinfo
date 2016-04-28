@@ -6,12 +6,12 @@ files, but a distinct lack for the newer formats.
 
 The newer formats all use the zip file format as the primary structure, with
 the internal sub formats using XML. As the primary structure is a zip file, it
-can obviously be trivally extracted, however, looking at eavh internal file is
-labourios and time consuming.
+can obviously be trivally extracted, however, looking at each internal file is
+laborious and time consuming.
 
-The aim of the script is to extract the pertinate information such as: does it
+The aim of the script is to extract the pertinent information such as: does it
 contain macros, embedded objects etc, and also extract any macro code into
-separate files. The script uses the [officedissector](https://github.com/grierforensics/officedissector/ "officedissector") 
+separate files. The script uses the [officedissector](https://github.com/grierforensics/officedissector/ "officedissector")
 python library to do the file parsing.
 
 ## Installation
